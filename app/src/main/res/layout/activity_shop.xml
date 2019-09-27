@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShopActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ViewFlipper
+            android:id="@+id/imageFlipperId"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+
+                >
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="10dp"
+                  android:text="Popular Products"
+                  android:textSize="22sp"
+                  android:textColor="#ff22"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginBottom="10dp">
+
+
+          <androidx.recyclerview.widget.RecyclerView
+
+              android:id="@+id/recyClearId"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" />
+
+
+
+      </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:padding="7dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="#ff22"
+                        android:textSize="22sp"
+                        android:text="Browse Catagory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                    />
+
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recCatgoryViewId"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+
+
+</ScrollView>

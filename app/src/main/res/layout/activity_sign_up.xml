@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayoutId"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".SignUpActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:text="Create  new Account"
+        android:textAllCaps="false"
+        android:textColor="#5E5BBE"
+        android:textStyle="bold"
+        />
+
+
+    <EditText
+        android:background="@drawable/edit_round"
+        android:textStyle="bold"
+        android:id="@+id/editTextFullNameSignUPID"
+        android:hint="Full Name "
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        />
+
+ <EditText
+     android:inputType="number"
+     android:background="@drawable/edit_round"
+     android:textStyle="bold"
+        android:id="@+id/editTexPhoneNumberSignUPID"
+        android:hint="Phone Number "
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        />
+
+ <EditText
+     android:background="@drawable/edit_round"
+     android:textStyle="bold"
+        android:id="@+id/editTeEmailAddressSignUPID"
+        android:hint="Email Address "
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        />
+
+ <EditText
+     android:inputType="numberPassword"
+     android:background="@drawable/edit_round"
+     android:textStyle="bold"
+        android:id="@+id/editTextPassWordSignUPID1234"
+        android:hint="Password "
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/custom_color"
+        android:id="@+id/signUp2ndddddId"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Sign Up"
+        android:textSize="27sp"
+        android:textColor="#DCD6D6"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayoutId222"
+    android:padding="27dp"
+    tools:context=".SignInActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="#5E5BBE"
+        android:textStyle="bold"
+        />
+
+
+    <EditText
+        android:background="@drawable/edit_round"
+        android:textStyle="bold"
+        android:id="@+id/emailorPhoneSignINEditID"
+        android:hint="Email or Phone Number "
+        android:layout_marginTop="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        />
+
+    <EditText
+        android:inputType="numberPassword"
+        android:background="@drawable/edit_round"
+        android:textStyle="bold"
+        android:id="@+id/editTextPassWordSignInID444"
+        android:hint="Password "
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/custom_color"
+        android:id="@+id/logInButtonSignInId4444"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Log In"
+        android:textSize="27sp"
+        android:textColor="#DCD6D6"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="69dp"
+        android:textStyle="bold"
+        android:textColor="#f000"
+        android:text="OR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/custom_color"
+        android:id="@+id/logInButtonWithFbSignInId"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Login With Facebook"
+        android:textSize="17sp"
+        android:textColor="#DCD6D6"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+
+
+
+</LinearLayout>
